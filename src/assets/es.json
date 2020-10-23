@@ -1,0 +1,20 @@
+{
+  "ERRORS": {
+    "NOT_COMMAND": "Not command found",
+    "NOT_ARGUMENTS": "You didn't provide any arguments",
+    "COOLDOWN": "You need to wait",
+    "MIN_MATCHES": "Sorry you need minimum"
+  },
+  "WARZONE": {
+    "KDR": "KDR",
+    "KILLS": "Kills",
+    "DEATHS": "Deaths",
+    "WINS": "Wins",
+    "MATCHES": "Matches",
+    "DOWNS": "Downs"
+  },
+  "EMMBED": {
+    "TITLE": "Role assignment",
+    "AUTHOR": "Warzone Role by KDR"
+  }
+}
