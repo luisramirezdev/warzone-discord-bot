@@ -1,6 +1,6 @@
 {
   "ERRORS": {
-    "NOT_COMMAND": "Not command found",
+    "NOT_COMMAND": "Command not found",
     "NOT_ARGUMENTS": "You didn't provide any arguments",
     "COOLDOWN": "You need to wait",
     "MIN_MATCHES": "Sorry you need minimum"
