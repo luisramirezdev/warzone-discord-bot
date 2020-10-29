@@ -40,7 +40,7 @@ To install the bot you have to do several steps before and be able to configure 
    - **COD_ACCOUNT**, is the email from the account you created on [my.callofduty.com](my.callofduty.com)
    - **COD_PASSWORD**, is the password from the account you created on [my.callofduty.com](my.callofduty.com)
    - **TOKEN_DISCORD**, is the `Token` Discord bot
-   - **LANG**, is the language configuration for the Discord bot (there are only English and Spanish).
+   - **LANG**, is the language configuration for the Discord bot there are only English (en), Spanish (es) and French (fr).
    - **WARZONE_MIN_MATCHES**, min matches to assign a role
    - **ROLES**, this is a complicated part, I will explain [here](#roles)
 5. Once you set all the variables you will have to restart the instance of Heroku
