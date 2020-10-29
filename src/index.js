@@ -64,7 +64,7 @@ function getPlataform(plataform) {
 function setRole(kdRatio, message) {
   let range;
   let role;
-  const roles = config.ROLES;
+  const roles = JSON.parse(process.env.ROLES);
 
   range = roles.find((role) => {
     return _.inRange(kdRatio, role.min, role.max);
