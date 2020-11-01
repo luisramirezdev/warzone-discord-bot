@@ -58,7 +58,6 @@ function getPlataform(plataform) {
 }
 
 function setRole(brAll, message) {
-	let range;
 
 	const roles = JSON.parse(process.env.ROLES);
 
@@ -67,7 +66,7 @@ function setRole(brAll, message) {
 			if (brAll.gamesPlayed >= role.minMatches) {
 				const searchRole = message.guild.roles.cache.find((roleGuild) => roleGuild.name === role.name);
 				message.member.roles.add(searchRole).then(console.log).catch(console.error);
-				return message.channel.send(generateEmmbed(brAll, range));
+				return message.channel.send(generateEmmbed(brAll, searchRole.name));
 			} else {
 				return message.channel.send(`${LANG.ERRORS.MIN_MATCHES} ${role.minMatches} ${LANG.WARZONE.MATCHES}`);
 			}
