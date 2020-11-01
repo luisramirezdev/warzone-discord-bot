@@ -9,6 +9,26 @@ The bot can assign roles on your server on base Warzone KDR.
 - Account in [http://my.callofduty.com](http://my.callofduty.com), with the purpose of getting the information of Warzone KDR of the users who want to assign a role.
 - Basic knowledge of how a Discord bot works, basic Javascript.
 
+# How to use
+
+```bash
+!rank <platform> <GamerTag>
+```
+
+**Example:**
+```bash
+!rank activision MuTeX#6638739
+```
+
+#### Platforms
+
+```json
+activision
+psn
+xbl
+battle
+```
+
 # How to install ?
 
 To install the bot you have to do several steps before and be able to configure it:
