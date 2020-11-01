@@ -19,14 +19,13 @@ To install the bot you have to do several steps before and be able to configure 
 2. The first step is to create a discord application so after that you can create a bot within this application, to create an application go to [https://discord.com/developers/applications](https://discord.com/developers/applications).
 3. Once you have the application created you can create a bot, in the page of the application created previously there is a menu that says bot, here you can create your bot.
 4. When you have created the bot, we need the `Token` to be able to use it in the Heroku instance, so keep it in a safe place.
-5. You need to activate the "OAuth2 Code Grant" option.
-6. When you create the bot we have to invite it to your server, for this we have to go to the menu of `OAuth2` where you can generate a link and invite the bot to your server.
-7. Permissions have to be:
+5. When you create the bot we have to invite it to your server, for this we have to go to the menu of `OAuth2` where you can generate a link and invite the bot to your server.
+6. Permissions have to be:
    - **Scop**: bot
    - **Permissions**:
      - Send Messages
      - Manage Roles
-8. Once the url is generated you can use it in your web browser where it tells you if you want to add the bot to your server.
+7. Once the url is generated you can use it in your web browser where it tells you if you want to add the bot to your server.
 
 > There are many tutorials of "how to create a Discord bot". I used this [https://discordpy.readthedocs.io/en/latest/discord.html](https://discordpy.readthedocs.io/en/latest/discord.html)
 
@@ -50,6 +49,8 @@ To install the bot you have to do several steps before and be able to configure 
 It is something complex for those who do not know basic programming, my idea is that you can modify the bot settings, remove or modify parameters of roles.
 
 > Before the explain the roles, this roles must already be configured in your discord server.
+
+> These roles in Discord have to be below the permissions of the Discord bot that we just created 
 
 However, at the moment I find this solution, which is an `Array of objects` which contains the name of the role, min of KDR and max of KDR, example:
 
