@@ -4,7 +4,8 @@
 		"NOT_ARGUMENTS": "Vous n'avez fourni aucun argument",
 		"COOLDOWN": "Il faut attendre",
 		"MIN_MATCHES": "Désolé, vous avez besoin d'un minimum",
-		"NOT_FOUND_USER": "Nom d'utilisateur ou plateforme incorrect!"
+		"NOT_FOUND_USER": "Nom d'utilisateur ou plateforme incorrect!",
+		"NOT_KDR": "Désolé, rôle non trouve"
 	},
 	"WARZONE": {
 		"KDR": "KDR",

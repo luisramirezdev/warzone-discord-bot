@@ -70,6 +70,8 @@ function setRole(brAll, message) {
 			} else {
 				return message.channel.send(`${LANG.ERRORS.MIN_MATCHES} ${role.minMatches} ${LANG.WARZONE.MATCHES}`);
 			}
+		} else {
+			return message.channel.send(`${LANG.ERRORS.NOT_KDR}`);
 		}
 	});
 }
