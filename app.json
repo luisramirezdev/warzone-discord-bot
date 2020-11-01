@@ -1,7 +1,7 @@
 {
-  "name": "Warzone Discord Roles Bot",
-  "description": "A discord bot to assignment role",
-  "repository": "https://github.com/luisramirez-m/warzone-discord-bot",
-  "logo": "https://www.socialclubgamer.com/wp-content/uploads/2020/06/logo-cod-150x150.jpg",
-  "keywords": ["node", "discord"]
+	"name": "Warzone Discord Roles Bot",
+	"description": "A discord bot to assignment role",
+	"repository": "https://github.com/luisramirez-m/warzone-discord-bot",
+	"logo": "https://www.socialclubgamer.com/wp-content/uploads/2020/06/logo-cod-150x150.jpg",
+	"keywords": ["node", "discord"]
 }

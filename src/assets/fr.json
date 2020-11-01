@@ -1,20 +1,21 @@
 {
-  "ERRORS": {
-    "NOT_COMMAND": "Commande non trouvée",
-    "NOT_ARGUMENTS": "Vous n'avez fourni aucun argument",
-    "COOLDOWN": "Il faut attendre",
-    "MIN_MATCHES": "Désolé, vous avez besoin d'un minimum"
-  },
-  "WARZONE": {
-    "KDR": "KDR",
-    "KILLS": "Tue",
-    "DEATHS": "Morts",
-    "WINS": "Gagnee",
-    "MATCHES": "Matches",
-    "DOWNS": "A terre"
-  },
-  "EMMBED": {
-    "TITLE": "Attribution de rôle",
-    "AUTHOR": "Warzone Role by KDR"
-  }
+	"ERRORS": {
+		"NOT_COMMAND": "Commande non trouvée",
+		"NOT_ARGUMENTS": "Vous n'avez fourni aucun argument",
+		"COOLDOWN": "Il faut attendre",
+		"MIN_MATCHES": "Désolé, vous avez besoin d'un minimum",
+		"NOT_FOUND_USER": "Nom d'utilisateur ou plateforme incorrect!"
+	},
+	"WARZONE": {
+		"KDR": "KDR",
+		"KILLS": "Tue",
+		"DEATHS": "Morts",
+		"WINS": "Gagnee",
+		"MATCHES": "Matches",
+		"DOWNS": "A terre"
+	},
+	"EMMBED": {
+		"TITLE": "Attribution de rôle",
+		"AUTHOR": "Warzone Role by KDR"
+	}
 }
